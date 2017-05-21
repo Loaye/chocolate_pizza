@@ -22,6 +22,103 @@ a {
 
 /* Body Styles */
 
+body header{
+  width: 960px;
+  height: 45px;
+  margin: 30px;
+}
+
+.logo{
+  padding-right: 10px;
+  display: inline;
+  vertical-align: top;
+}
+
+header h1 {
+  display: inline;
+  width: 35px;
+  vertical-align: top;
+}
+
+header span {
+  display: inline;
+  width: 10px;
+  vertical-align: bottom;
+  text-align: top;
+}
+
+nav {
+  height: 24px;
+  margin-bottom: 0px;
+}
+
+nav ul li {
+  float: right;
+  margin-bottom: 11px;
+}
+
+/* Body Design */
+
+.grey_bar{
+  height: 8px;
+  width: 960px;
+  margin: 30px auto;
+  background-color: grey;
+}
+
+main{
+  width: 960px;
+  margin: 0px auto;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+sub-banner-main{
+  height: 12px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+}
+
+ .left {
+   float: left;
+ }
+
+ .right{
+   float: right;
+ }
+
+.right a{
+  color: grey;
+  text-decoration: none;
+}
+ .main-image{
+  width: 960px;
+  height: 450px;
+  float: left;
+ }
+
+.paragraph{
+  margin: 30px 0px;
+  font-family: Serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.checklist{
+  width: 305px;
+  height: 899px;
+}
+
+section div .left-list{
+
+}
+
 
 
 
