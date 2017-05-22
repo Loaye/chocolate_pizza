@@ -1,3 +1,209 @@
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+}
+
+header span {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
+}
+
+a {
+  color: black;
+}
+
+/* Body Styles */
+
+body header{
+  width: 960px;
+  height: 45px;
+  margin: 30px;
+}
+
+.logo{
+  padding-right: 10px;
+  display: inline;
+  vertical-align: top;
+}
+
+header h1 {
+  display: inline;
+  width: 35px;
+  vertical-align: top;
+}
+
+header span {
+  display: inline;
+  width: 10px;
+  vertical-align: bottom;
+  text-align: top;
+}
+
+nav {
+  height: 24px;
+  margin-bottom: 0px;
+}
+
+nav ul li {
+  float: right;
+  margin-bottom: 12px;
+}
+
+/* Body Design */
+/* Main */
+.grey_bar{
+  height: 15px;
+  width: 960px;
+  margin: 30px auto;
+  background-color: grey;
+}
+
+main{
+  width: 960px;
+  margin: 0px auto;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+sub-banner-main{
+  height: 12px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+}
+
+ .left {
+   color: grey;
+   float: left;
+   margin-top: 5px;
+ }
+
+ .right{
+   margin-top: 5px;
+   float: right;
+ }
+
+.right a{
+  color: grey;
+  text-decoration: none;
+}
+
+/* Main */
+ .main-image{
+  width: 960px;
+  height: 450px;
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+ }
+
+.paragraph{
+  margin: 30px 0px;
+  font-family: Serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: grey;
+}
+
+ .paragraph p{
+   text-indent: 50px;
+ }
+
+/* Checklist */
+
+.checklist{
+  position: relative;
+  float: left;
+  height: 305px;
+  width: 960px;
+}
+
+.checklist .left-list{
+  position: absolute;
+  float: left;
+  padding: 5px 15px;
+  font-family: Patrick Hand;
+}
+
+.checklist .right-list{
+  position: absolute;
+  float: right;
+  padding: 5px 15px;
+  font-family: Patrick Hand;
+}
+
+.credits{
+  width: 960px;
+  height: 220px;
+}
+
+.credits img{
+  width: 73px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.bio{
+  width: 682px;
+  height: 93px;
+  float: left;
+}
+
+.bio h3{
+  font-family: garamond;
+  font-weight: bold;
+  font-size: 24px;
+  color: grey;
+}
+
+.bio .span{
+  display: inline-block;
+  font-family: garamond;
+  font-weight: lighter;
+  font-size: 20px;
+  color: grey;
+}
+
+.bio .class .button{
+}
+
+/* Footer */
+
+.footer{
+  width: 960px;
+  height: 120px;
+}
+
+.thin-bar-left{
+  display: inline-block;
+  float: left;
+  width: 458px;
+  height: 3px;
+  color: grey;
+}
+
+.foot img{
+  display: inline-block;
+  float: left;
+  height: 24px;
+  width: 24px;
+}
+
+.footer .thin-bar-right{
+  display: inline-block;
+  float: right;
+  width: 458px;
+  height: 3px;
+  color: grey;
+}
+
 .clearfix {
   clear: both;
 }
