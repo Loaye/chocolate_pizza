@@ -61,6 +61,7 @@ main h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: -40px;
 }
 
 .sub-banner-main{
@@ -74,6 +75,7 @@ main h2 {
 
 .sub-banner-main p span a{
   color: grey;
+  text-decoration: none;
 }
 
 .left{
@@ -96,27 +98,142 @@ main h2 {
   color: grey;
 }
 
-.checklist{
+/* Checklist */
+.recipe{
   position: relative;
   width: 960px;
+  height: 305px;
+  background: url(images/list-bg.png);
 }
 
-.left-list{
-  position: absolute;
-  float: left;
-  font-family: 'Delius', cursive;
-  font-size: 20px;
-  color: grey;
-}
+ul{
+  font-size: 23px;
+  list-style: none;
+  }
 
-.right-list{
-  position: absolute;
+li{
+  font-family: 'Patrick Hand', cursive;
+  }
+
+.right{
+  margin-top: 37px;
+  margin-right: 1%;
   float: right;
-  font-family: 'Delius', cursive;
+}
+
+.left{
+  margin-top: 37px;
+  margin-left: 1%;
+  float: left;
+}
+
+.thin-bar-left{
+  width: 450px;
+  height: 2px;
+  inline: block
+  float: left;
+}
+
+.thin-bar-right{
+  width: 450px;
+  height: 2px;
+  float: right;
+}
+
+.credits {
+  width: 960px;
+  height: 180px;
+}
+
+.credits .bio {
+  position: relative;
+  width: 682px;
+  height: 93px;
+  float: left;
+}
+
+.credits img {
+  width: 73px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.credits h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #867970;;
+}
+
+.credits span {
+  display: inline-block;
+  margin-top: 5px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: '300';
   font-size: 20px;
+  color: #867970;
+}
+
+.button {
+  width: 185px;
+  height: 70px;
+  position: relative;
+  float: right;
+}
+
+.button button {
+  width: 185px;
+  height: 54px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  background: #C06F5E;
+}
+/*Footer*/
+footer {
+  width: 960px;
+  height: 120px;
+}
+
+footer img {
+  margin-top: 5px;
+  margin-left: 450px;
+  float: left;
+}
+
+.thin-bar-left{
+  width: 450px;
+  height: 2px;
+  float: left;
+  display: inline-block;
   color: grey;
 }
 
+.thin-bar-right{
+  width: 450px;
+  height: 2px;
+  float: right;
+  display: inline-block;
+  color: grey;
+}
+
+.copyright{
+    width: 960px;
+    margin-left: 345px;
+}
+
+.copyright-2{
+  width: 960px;
+  margin-left: 375px;
+}
 
 .clearfix {
   clear: both;
