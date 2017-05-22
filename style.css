@@ -1,3 +1,71 @@
+/*Body Dimensions*/
+body{
+  width: 960px;
+  margin: auto;
+}
+
+/* Header */
+h1 {
+  font-family: 'Yellowtail';
+  font-size: 35px;
+}
+
+header{
+  height: 50px;
+  width: 960px;
+  position: relative;
+  margin: 30px auto;
+
+}
+ header div > img{
+   width: 50px;
+   height: 50px;
+   float: left;
+   padding-right: 15px;
+ }
+
+header section{
+  width: 200px;
+  height: 50px;
+  float: left;
+  font-family: 'Roboto Condensed';
+  font-size: 12px;
+};
+
+nav{
+  height: 50px;
+}
+
+nav ul li{
+  width: 25px
+  height: 25px;
+  float: right;
+  margin: 12px 1px 0px 0px;
+
+}
+
+.pinterest{
+  margin-right: 15px;
+}
+
+/* Top Bar */
+
+.grey-bar{
+  width: 960px;
+  height: 15px;
+  background: grey:
+}
+/* Main */
+
+
+
+.checklist{
+
+}
+
+
+
+
 .clearfix {
   clear: both;
 }
